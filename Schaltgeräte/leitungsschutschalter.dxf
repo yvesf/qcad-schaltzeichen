@@ -691,15 +691,15 @@ BYLAYER
 100
 AcDbLine
  10
-15.0
+7.5
  20
 0.0
  30
 0.0
  11
-15.0
+7.5
  21
-4.0
+5.0
  31
 0.0
   0
@@ -721,15 +721,15 @@ BYLAYER
 100
 AcDbLine
  10
-30.0
+7.5
  20
-4.0
+5.0
  30
 0.0
  11
-30.0
+4.6619096958698929
  21
-16.0
+10.1438523954738251
  31
 0.0
   0
@@ -751,15 +751,15 @@ BYLAYER
 100
 AcDbLine
  10
-0.0
+7.5
  20
-4.0
+10.0
  30
 0.0
  11
-0.0
+7.5
  21
-16.0
+15.0
  31
 0.0
   0
@@ -781,15 +781,15 @@ BYLAYER
 100
 AcDbLine
  10
-4.0
+5.3760245085521641
  20
-16.0
+8.8495661690935385
  30
 0.0
  11
-4.0
+4.3915072626767646
  21
-24.0
+8.3063645694079682
  31
 0.0
   0
@@ -811,15 +811,15 @@ BYLAYER
 100
 AcDbLine
  10
-15.0
+3.6248839397546071
  20
-16.0
+7.8833846601049986
  30
 0.0
  11
-15.0
+4.6248839397546071
  21
-24.0
+7.8833846601049986
  31
 0.0
   0
@@ -841,15 +841,15 @@ BYLAYER
 100
 AcDbLine
  10
-26.0
+3.6248839397546071
  20
-16.0
+7.8833846601049986
  30
 0.0
  11
-26.0
+4.1581305855989221
  21
-24.0
+8.7293444787109351
  31
 0.0
   0
@@ -871,19 +871,19 @@ BYLAYER
 100
 AcDbLine
  10
-30.0
+4.1581305855989221
  20
-16.0
+8.7293444787109351
  30
 0.0
  11
-0.0
+4.6248839397546071
  21
-16.0
+7.8833846601049986
  31
 0.0
   0
-LINE
+HATCH
   5
 3A
 100
@@ -899,19 +899,77 @@ AcDbEntity
   6
 BYLAYER
 100
-AcDbLine
+AcDbHatch
  10
 0.0
  20
-4.0
+0.0
  30
 0.0
- 11
-30.0
- 21
-4.0
- 31
+210
 0.0
+220
+0.0
+230
+1.0
+  2
+SOLID
+ 70
+1
+ 71
+0
+ 91
+1
+ 92
+1
+ 93
+3
+ 72
+1
+ 10
+4.1581305855989221
+ 20
+8.7293444787109351
+ 11
+4.6248839397546071
+ 21
+7.8833846601049986
+ 72
+1
+ 10
+4.6248839397546071
+ 20
+7.8833846601049986
+ 11
+3.6248839397546071
+ 21
+7.8833846601049986
+ 72
+1
+ 10
+3.6248839397546071
+ 20
+7.8833846601049986
+ 11
+4.1581305855989221
+ 21
+8.7293444787109351
+ 97
+0
+ 75
+0
+ 76
+1
+ 98
+0
+1001
+ACAD
+1010
+0.0
+1020
+0.0
+1030
+0
   0
 ENDSEC
   0
@@ -1581,97 +1639,121 @@ Grid/MetaGridSpacingY03
 350
 5C
   3
-MultiPageSettings/Columns
+LinetypeSettings/PSLTSCALE
 350
 5D
   3
-MultiPageSettings/GlueMarginsBottom
+MultiPageSettings/Columns
 350
 5E
   3
-MultiPageSettings/GlueMarginsLeft
+MultiPageSettings/GlueMarginsBottom
 350
 5F
   3
-MultiPageSettings/GlueMarginsRight
+MultiPageSettings/GlueMarginsLeft
 350
 60
   3
-MultiPageSettings/GlueMarginsTop
+MultiPageSettings/GlueMarginsRight
 350
 61
   3
-MultiPageSettings/PrintCropMarks
+MultiPageSettings/GlueMarginsTop
 350
 62
   3
-MultiPageSettings/Rows
+MultiPageSettings/PrintCropMarks
 350
 63
   3
-PageSettings/OffsetX
+MultiPageSettings/Rows
 350
 64
   3
-PageSettings/OffsetY
+PageSettings/OffsetX
 350
 65
   3
-PageSettings/PageOrientation
+PageSettings/OffsetY
 350
 66
   3
-PageSettings/PaperHeight
+PageSettings/PageOrientation
 350
 67
   3
-PageSettings/PaperWidth
+PageSettings/PaperHeight
 350
 68
   3
-PageSettings/Scale
+PageSettings/PaperWidth
 350
 69
   3
-PageSettings/ShowPaperBorders
+PageSettings/Scale
 350
 6A
   3
-PageTagSettings/EnablePageTags
+PageSettings/ShowPaperBorders
 350
 6B
   3
-PageTagSettings/TagAlignment
+PageTagSettings/EnablePageTags
 350
 6C
   3
-PageTagSettings/TagFont
+PageTagSettings/TagAlignment
 350
 6D
   3
-PageTagSettings/TagPosition
+PageTagSettings/TagFont
 350
 6E
   3
-QCADVersion
+PageTagSettings/TagPosition
 350
 6F
   3
-UnitSettings/PaperUnit
+PointDisplaySettings/Button0
 350
 70
   3
-ViewportCenter
+PointDisplaySettings/Button33
 350
 71
   3
-ViewportHeight
+PointDisplaySettings/Button99
 350
 72
   3
-ViewportWidth
+PointDisplaySettings/Mode
 350
 73
+  3
+PointDisplaySettings/Size
+350
+74
+  3
+QCADVersion
+350
+75
+  3
+UnitSettings/PaperUnit
+350
+76
+  3
+ViewportCenter
+350
+77
+  3
+ViewportHeight
+350
+78
+  3
+ViewportWidth
+350
+79
   0
 XRECORD
   5
@@ -1755,7 +1837,7 @@ AcDbXrecord
 280
 1
 1000
-auto
+2.5
   0
 XRECORD
   5
@@ -1803,7 +1885,7 @@ AcDbXrecord
 280
 1
 1000
-auto
+2.5
   0
 XRECORD
   5
@@ -1899,7 +1981,7 @@ AcDbXrecord
 280
 1
  90
-65537
+65552
   0
 XRECORD
   5
@@ -2042,8 +2124,8 @@ XRECORD
 AcDbXrecord
 280
 1
- 90
-1
+290
+0
   0
 XRECORD
   5
@@ -2054,8 +2136,8 @@ XRECORD
 AcDbXrecord
 280
 1
- 40
-10.0
+ 90
+1
   0
 XRECORD
   5
@@ -2102,8 +2184,8 @@ XRECORD
 AcDbXrecord
 280
 1
-290
-0
+ 40
+10.0
   0
 XRECORD
   5
@@ -2114,8 +2196,8 @@ XRECORD
 AcDbXrecord
 280
 1
- 90
-1
+290
+0
   0
 XRECORD
   5
@@ -2126,8 +2208,8 @@ XRECORD
 AcDbXrecord
 280
 1
- 40
-0.0
+ 90
+1
   0
 XRECORD
   5
@@ -2150,8 +2232,8 @@ XRECORD
 AcDbXrecord
 280
 1
-1000
-Portrait
+ 40
+0.0
   0
 XRECORD
   5
@@ -2162,8 +2244,8 @@ XRECORD
 AcDbXrecord
 280
 1
- 40
-297.0
+1000
+Portrait
   0
 XRECORD
   5
@@ -2175,11 +2257,23 @@ AcDbXrecord
 280
 1
  40
-210.0
+297.0
   0
 XRECORD
   5
 69
+330
+3C
+100
+AcDbXrecord
+280
+1
+ 40
+210.0
+  0
+XRECORD
+  5
+6A
 330
 3C
 100
@@ -2191,7 +2285,7 @@ AcDbXrecord
   0
 XRECORD
   5
-6A
+6B
 330
 3C
 100
@@ -2203,7 +2297,7 @@ AcDbXrecord
   0
 XRECORD
   5
-6B
+6C
 330
 3C
 100
@@ -2215,7 +2309,7 @@ AcDbXrecord
   0
 XRECORD
   5
-6C
+6D
 330
 3C
 100
@@ -2227,7 +2321,7 @@ Inside
   0
 XRECORD
   5
-6D
+6E
 330
 3C
 100
@@ -2239,7 +2333,7 @@ Arial,10,-1,5,50,0,0,0,0,0
   0
 XRECORD
   5
-6E
+6F
 330
 3C
 100
@@ -2251,7 +2345,67 @@ TopLeft
   0
 XRECORD
   5
-6F
+70
+330
+3C
+100
+AcDbXrecord
+280
+1
+1000
+Button0
+  0
+XRECORD
+  5
+71
+330
+3C
+100
+AcDbXrecord
+280
+1
+1000
+Button33
+  0
+XRECORD
+  5
+72
+330
+3C
+100
+AcDbXrecord
+280
+1
+1000
+Button99
+  0
+XRECORD
+  5
+73
+330
+3C
+100
+AcDbXrecord
+280
+1
+1000
+0
+  0
+XRECORD
+  5
+74
+330
+3C
+100
+AcDbXrecord
+280
+1
+1000
+0
+  0
+XRECORD
+  5
+75
 330
 3C
 100
@@ -2263,7 +2417,7 @@ AcDbXrecord
   0
 XRECORD
   5
-70
+76
 330
 3C
 100
@@ -2275,7 +2429,7 @@ AcDbXrecord
   0
 XRECORD
   5
-72
+78
 330
 3C
 100
@@ -2283,11 +2437,11 @@ AcDbXrecord
 280
 1
  40
-104.1881145555035033
+15.6964285714285712
   0
 XRECORD
   5
-73
+79
 330
 3C
 100
@@ -2295,7 +2449,7 @@ AcDbXrecord
 280
 1
  40
-216.1992274735362685
+32.5714285714285694
   0
 ENDSEC
   0
